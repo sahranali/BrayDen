@@ -68,7 +68,7 @@ async def _(event):
         )
         tgbot_reply_message = tgbot_reply_message.media
 
-    await tgbot.send_message(
+    await @brog.on(
         entity=Config.PRIVATE_CHANNEL_BOT_API_ID,
         message=message_text,
         parse_mode="html",
