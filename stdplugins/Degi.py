@@ -1,5 +1,5 @@
 """Fun pligon...for @PepeB0t
-\nCode by @kirito6969 , ©[Eyepatch](https://t.me/NeoMatrix90)
+\nCode by @BrayDen_1 , ©[Eyepatch](https://t.me/NeoMatrix90)
 type `.degi` and `.nehi` to see the fun.
 """
 import random, re
