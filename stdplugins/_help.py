@@ -27,7 +27,7 @@ async def _(event):
 Pithun {}
 Talethrun {}
  
-**Custom Built Fork**: https://github.com/prono69/PepeBot """.format(
+**Custom Built Fork**: https://github.com/sahranali/BrayDen """.format(
         sys.version,
         __version__
     )
@@ -75,7 +75,7 @@ async def _(event):
     plugin_name = event.pattern_match.group(1)
     if plugin_name in borg._plugins:
         help_string = borg._plugins[plugin_name].__doc__
-        unload_string = f"Use `.unloda {plugin_name}` to remove this plugin.\n         © @kirito6969"
+        unload_string = f"Use `.unloda {plugin_name}` to remove this plugin.\n         © @BrayDen_1"
         if help_string:
             plugin_syntax = f"Syntax for plugin **{plugin_name}**:\n\n{help_string}\n{unload_string}"
         else:
